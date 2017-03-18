@@ -1,0 +1,41 @@
+{
+  "name": "unrun",
+  "version": "0.0.0",
+  "description": "Better npm script runner",
+  "repository": {
+    "url": "egoist/unrun",
+    "type": "git"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "bin": "bin/cli.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "xo"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "eslint-config-rem": "^3.0.0",
+    "jest-cli": "^18.1.0",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "extends": "rem",
+    "esnext": true,
+    "envs": [
+      "jest"
+    ]
+  },
+  "dependencies": {
+    "cac": "^3.0.4",
+    "chalk": "^1.1.3",
+    "cross-spawn": "^5.1.0",
+    "inquirer": "^3.0.6"
+  }
+}
