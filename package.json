@@ -1,6 +1,6 @@
 {
   "name": "unrun",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Better npm script runner",
   "repository": {
     "url": "egoist/unrun",
